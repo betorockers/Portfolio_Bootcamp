@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Beto Toledo | @betograf_inc</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--- favicon-->
+    <link rel="shortcut icon" href="./assets/images/2.ico" type="image/x-icon">
+    <!-- Estilos personalizados -->
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+            <a href="#">
+                <img src="assets/images/logoNegroGraf.png" alt="Logo de Betograf" id="logo">
+            </a>
+            
+            <!-- <a class="navbar-brand" href="#">Mi Portafolio</a> -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- </section> -->
+        <section id="about">
+            <div class="about-card">
+                <h1>Sobre Mí</h1>
+                
+                <!-- Contenedor para la imagen y el texto -->
+                <div class="about-content">
+                    
+                    <!-- Imagen personal -->
+                    <div class="about-image">
+                        <img src="assets/images/fotoPerfil.png" alt="Foto de Omar Beto Toledo">
+                    </div>
+                    
+                    <!-- Texto de descripción -->
+                    <div class="about-text">
+                        <p>
+                            Hola, soy <strong>Omar Beto Toledo</strong>, un desarrollador web apasionado con experiencia en crear soluciones innovadoras y eficaces. 
+                            Me especializo en <strong>Desarrollo Web Python/Django y prontamente con Java</strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Sección de Habilidades -->
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skill-item">HTML5</li>
+                <li class="skill-item">CSS3</li>
+                <li class="skill-item">JavaScript</li>
+                <li class="skill-item">Bootstrap</li>
+                <li class="skill-item">Python</li>
+            </ul>
+        </section>
+
+
+        <!-- Sección de Proyectos -->
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/images/webmultipro.png" class="card-img-top" alt="Proyecto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Sitio Web Multipro</h5>
+                                <p class="card-text">
+                                    Sitio web perfecto para el sector alimenticio: 
+                                    Ideal para restaurantes, tiendas de productos, 
+                                    panaderías y cualquier negocio relacionado con la comida. 
+                                    Diseñado para destacar tus productos y atraer a tus clientes de manera efectiva.</p>
+                                <a href="https://betorockers.github.io/WebMultipro/" class="btn btn-primary" target="_blank">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/images/descarga_de_youtube.png" class="card-img-top" alt="Proyecto 2">
+                            <div class="card-body">
+                                <h5 class="card-title">YouTube Downloads</h5>
+                                <p class="card-text">
+                                    Proyecto en Python con Tkinter y CustomTkinter: 
+                                    Desarrollado para facilitar la descarga continua de videos de YouTube sin limitaciones, 
+                                    brindando una experiencia fluida y sin restricciones.<br>
+                                    Puedes revisar el codigo en el siguiente enlace de abajo.
+                                </p>
+                                <a href="https://github.com/betorockers/YT-Downloads" class="btn btn-primary" target="_blank">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/images/inicio_sesion_flet.png" class="card-img-top" alt="Proyecto 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Login con Flet/Python</h5>
+                                <p class="card-text">Aplicación en Flet y Python: 
+                                    Desarrollada para ofrecer un inicio de sesión seguro y eficiente, 
+                                    combinando la flexibilidad de Flet con la potencia de Python para una experiencia de usuario fluida.<br>
+                                    Puedes revisar el codigo en el siguiente enlace de abajo.</p>
+                                <a href="https://github.com/betorockers/Login_con_Flet-Python" class="btn btn-primary" target="_blank">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección de Contacto -->
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre" required>
+                    <span class="error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo" required>
+                    <span class="error" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                    <span class="error" id="messageError"></span>
+                </div>
+                <button type="submit" class="btn btn-primary" id="btnContacto">Enviar</button>
+            </form>
+            <p id="mensajeConfirmacion" class="success" style="display:none;">¡Gracias por contactarnos! Te responderemos pronto.</p>
+        </section>
+
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Omar Beto Toledo - Todos los derechos reservados <a href="https://www.instagram.com/betograf_inc/" target="_blank">@Betograf_inc.</a></p>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Script para formulario contacto -->
+    <script src="assets/js/contacto.js"></script>
+</body>
+
+</html>
